@@ -47,7 +47,11 @@ const FeatureSection = () => (
               Velit sit tempor pariatur quis pariatur incididunt culpa dolor voluptate officia incididunt velit dolore.
             </p>
           </div>
-          <div className={tw(`w-full border-b border-primary md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 p-8`)}>
+          <div
+            className={tw(
+              `w-full border-b border-primary md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 p-8`,
+            )}
+          >
             <div className={tw(`flex items-center mb-2`)}>
               <Check width={20} height={20} fill="currentColor" className={tw(`h-6 w-6 text-indigo-500`)} />
               <div className={tw(`ml-4 text-xl`)}>Modern platform</div>
