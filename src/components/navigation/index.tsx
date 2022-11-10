@@ -1,6 +1,7 @@
 import { tw } from 'twind';
 import { useState } from 'react';
 import Button from '@/components/button';
+import Link from 'next/link';
 
 interface IMenuButton {
   toggleMenu: React.MouseEventHandler<HTMLButtonElement>;
@@ -19,11 +20,11 @@ const links = [
   },
   {
     label: `Testimonials`,
-    href: `/`,
+    href: `/testimonials`,
   },
   {
     label: `Pricing`,
-    href: `/`,
+    href: `/pricing`,
   },
   {
     label: `Blog`,
@@ -119,9 +120,11 @@ const Navigation = () => {
       <div className={tw(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
-            <div className={tw(`flex-shrink-0`)}>
+            <Link href="/">
+              <a className={tw(`flex-shrink-0`)}>
               <img className={tw(`w-3/4`)} src="/images/logo.png" alt="logo" />
-            </div>
+              </a>
+            </Link>
             <div className={tw(`hidden md:block`)}>
               <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
                 {links.map((link: Link) => (

@@ -22,8 +22,8 @@ export default function Home() {
         <ListSection />
         <FeatureSection />
         <CasesSection />
-        <SocialProof />
-        <PricingTable />
+        {/* <SocialProof /> */}
+        {/* <PricingTable /> */}
       </main>
       <Footer />
     </Page>
