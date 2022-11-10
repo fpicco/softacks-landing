@@ -30,6 +30,7 @@
   "dependencies": {
     "@fontsource/inter": "4.2.1",
     "@svgr/webpack": "5.5.0",
+    "aos": "2.3.4",
     "iframe-resizer-react": "1.1.0",
     "next": "12.1.6",
     "next-seo": "4.20.0",
@@ -40,6 +41,7 @@
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
+    "@types/aos": "3.0.4",
     "@types/node": "14.14.28",
     "@types/react": "17.0.2",
     "@types/react-dom": "17.0.1",

@@ -22,7 +22,7 @@ const PricingTable = () => (
         <div className={tw(`overflow-hidden lg:max-w-none lg:flex justify-center gap-x-12`)}>
           {cards.map((card) => {
             return (
-              <div key={card.id} className={tw(`bg-white shadow-md rounded-md p-12 w-96`)}>
+              <div data-aos="zoom-in" key={card.id} className={tw(`bg-white shadow-md rounded-md p-12 w-96`)}>
                 <h2 className={tw('text-4xl capitalize text-center py-3')}>{card.id}</h2>
                 <p className={tw('text-4xl font-bold text-primary text-center')}>
                   $ {card.pricing}

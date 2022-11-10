@@ -33,14 +33,16 @@ const Header = () => (
       <img className={tw(`w-1/2 pt-5`)} src="/images/start-up.png" alt="logo" />
     </div>
 
-    <div className={tw(`flex justify-center w-full`)}>
+    <div className={tw(`flex justify-center w-full bg-gray-100 py-10`)}>
       <div className={tw(`mt-4 w-full`)}>
-        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>These folks get it</p>
+        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>Our tech stack</p>
         <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
-          <Aws className={tw(`m-12 mb-8`)} width={120} />
-          <Netlify className={tw(`m-12`)} width={140} />
-          <Nike className={tw(`m-12`)} width={140} />
-          <Figma className={tw(`m-12`)} width={140} />
+          <Aws className={tw(`m-12 mb-8 opacity-80`)} width={120} />
+          <Netlify className={tw(`m-12 opacity-80`)} width={140} />
+          <Figma className={tw(`m-12 opacity-80`)} width={140} />
+          <Aws className={tw(`m-12 mb-8 opacity-80`)} width={120} />
+          <Netlify className={tw(`m-12 opacity-80`)} width={140} />
+          <Figma className={tw(`m-12 opacity-80`)} width={140} />
         </div>
       </div>
     </div>
