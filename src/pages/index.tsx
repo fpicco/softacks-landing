@@ -4,6 +4,7 @@ import Header from '@/components/header';
 import ListSection from '@/components/list-section';
 import FeatureSection from '@/components/feature-section';
 import Footer from '@/components/footer';
+import Contact from '@/components/contact';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <ListSection />
         <FeatureSection />
+        <Contact />
       </main>
       <Footer />
     </Page>

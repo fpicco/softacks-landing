@@ -16,34 +16,22 @@ type Link = {
 const links = [
   {
     label: `Features`,
-    href: `/`,
+    href: `/#features`,
   },
   {
-    label: `Testimonials`,
-    href: `/testimonials`,
+    label: `Our work`,
+    href: `/ourwork`,
   },
   {
     label: `Pricing`,
     href: `/pricing`,
   },
-  {
-    label: `Blog`,
-    href: `/`,
-  },
 ];
 
 const secondaryLinks = [
   {
-    label: `Contact sales`,
-    href: `/`,
-  },
-  {
-    label: `Log in`,
-    href: `/`,
-  },
-  {
     label: `Get Started`,
-    href: `/`,
+    href: `/#contact`,
   },
 ];
 
@@ -121,17 +109,17 @@ const Navigation = () => {
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
             <Link href="/">
-              <a className={tw(`flex-shrink-0`)}>
-                <img className={tw(`w-3/4`)} src="/images/logo.png" alt="logo" />
-              </a>
+              <img className={tw(`w-3/4 hover:scale-105 cursor-pointer`)} src="/images/logo.png" alt="logo" />
             </Link>
-            <div className={tw(`hidden md:block`)}>
-              <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
+          </div>
+          <div>
+            <div className={tw(`hidden md:block -ml-20`)}>
+              <div className={tw(`flex items-baseline space-x-4`)}>
                 {links.map((link: Link) => (
                   <a
                     key={link.label}
                     href={link.href}
-                    className={tw(`text-gray-500 hover:text-gray-600 px-3 py-2 rounded-md font-medium`)}
+                    className={tw(`text-gray-500 hover:text-gray-600 hover:scale-105 px-3 py-2 rounded-md font-medium`)}
                   >
                     {link.label}
                   </a>
@@ -140,11 +128,9 @@ const Navigation = () => {
             </div>
           </div>
           <div className={tw(`hidden md:block`)}>
-            <div className={tw(`ml-4 flex items-center md:ml-6`)}>
-              <Button modifier="border-0 mr-2">Contact sales</Button>
-              <Button modifier="border-0 mr-2">Log in</Button>
+            <Link href="/#contact" className={tw(`ml-4 flex items-center md:ml-6`)}>
               <Button primary>Get started</Button>
-            </div>
+            </Link>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>
             <MenuButton showMenu={showMenu} toggleMenu={toggleMenu} />

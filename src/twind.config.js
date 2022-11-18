@@ -7,7 +7,7 @@ export default {
             sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`,
       },
       colors: {
-        primary: "#4337C9" 
+        primary: '#4337C9',
       },
     },
   },

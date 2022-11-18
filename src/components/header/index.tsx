@@ -1,13 +1,13 @@
 import { tw, css } from 'twind/css';
 import Button from '@/components/button';
-import Netlify from '@/constants/svg/netlify.svg';
-import Figma from '@/constants/svg/figma.svg';
-import Aws from '@/constants/svg/aws.svg';
+import Link from 'next/link';
 
 const headerStyle = css`
   background-color: #ffffff;
   min-height: calc(100vh - 6rem);
 `;
+const techImgBase = `/images/stack/`;
+const techStack = [`aws`, `python`, `serverless`, `tailwind`, `docker`, `nextjs`];
 
 const Header = () => (
   <header className={tw(headerStyle)}>
@@ -20,28 +20,30 @@ const Header = () => (
         </h1>
         <div className={tw(`max-w-xl mx-auto`)}>
           <p className={tw(`mt-10 text-gray-500 text-center text-xl lg:text-3xl`)}>
-            Get your MVP with techwarely in just one month.
+            Get your MVP with Techwarely in just one month.
           </p>
         </div>
-        <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
-          <Button primary>Get started</Button>
-          <span className={tw(`mx-2`)}>or</span>
-          <Button>Contact us</Button>
-        </div>
+        <Link href="/#contact">
+          <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
+            <Button primary>Get started</Button>
+          </div>
+        </Link>
       </div>
-      <img className={tw(`w-1/2 pt-5`)} src="/images/start-up.png" alt="logo" />
+      <img className={tw(`w-1/3 pt-5`)} src="/images/start-up.png" alt="logo" />
     </div>
 
     <div className={tw(`flex justify-center w-full bg-gray-100 py-10`)}>
       <div className={tw(`mt-4 w-full`)}>
-        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>Our tech stack</p>
-        <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
-          <Aws className={tw(`m-12 mb-8 opacity-80`)} width={120} />
-          <Netlify className={tw(`m-12 opacity-80`)} width={140} />
-          <Figma className={tw(`m-12 opacity-80`)} width={140} />
-          <Aws className={tw(`m-12 mb-8 opacity-80`)} width={120} />
-          <Netlify className={tw(`m-12 opacity-80`)} width={140} />
-          <Figma className={tw(`m-12 opacity-80`)} width={140} />
+        <p className={tw(`font-mono uppercase text-center font-medium text-xl text-gray-600`)}>Our tech stack</p>
+        <div className={tw(`flex items-center justify-center mx-auto gap-x-16 px-96`)}>
+          {techStack.map((tool) => (
+            <img
+              key={tool}
+              className={tw(`w-1/6 my-10 opacity-80 grayscale`)}
+              src={`${techImgBase}${tool}.webp`}
+              alt="logo"
+            />
+          ))}
         </div>
       </div>
     </div>

@@ -3,19 +3,20 @@ import FeatureSvg from '@/constants/svg/features.svg';
 
 const listItems = [
   {
-    title: `Inicial call`,
-    description: `We will have a free 30-minute call to get to know each other and your expectations.`,
+    title: `Initial call`,
+    description: `Schedule a free 30-minute call to get to know each other and your project's needs.`,
   },
   {
-    title: `Email exchange`,
-    description: `Exchange of emails to set requirements, deadlines and scope of the project.`,
+    title: `Setup requirements`,
+    description: `Exchange emails to set requirements, deadlines, and project scope.`,
   },
   {
     title: `Development`,
-    description: `We work the agreed months, either for the MVP or for the entire project.`,
+    description: `Our developers start working on getting your project finished within the
+     arranged days and milestones.`,
   },
   {
-    title: `Deployment`,
+    title: `Project delivery`,
     description: `Delivery of the project and free support for 1 month.`,
   },
 ];

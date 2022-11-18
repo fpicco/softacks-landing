@@ -1,18 +1,15 @@
 import { tw } from 'twind';
 import Button from '@/components/button';
 
-const productLinks = [`Features`, `Customers`, `Platform`, `Pricing`, `Enterprise`, `What's new?`];
-const aboutLinks = [`About Us`, `Careers`, `Leadership`, `Blog`, `Events`, `Press`];
-const resourceLinks = [
-  `Get started`,
-  `Guides`,
-  `Tools`,
-  `Case studies`,
-  `Solutions`,
-  `FAQs`,
-  `Help Center`,
-  `Training`,
-  `Other resources`,
+const sections = [
+  { name: `Features`, link: `#features` },
+  { name: `Our work`, link: `ourwork` },
+  { name: `Pricing`, link: `pricing` },
+];
+const policies = [
+  { name: `Terms and Conditions`, link: `termsandconditions` },
+  { name: `Privacy Policy`, link: `privacypolicy` },
+  { name: `Cookies Policy`, link: `cookiespolicy` },
 ];
 
 const Footer = () => (
@@ -22,44 +19,29 @@ const Footer = () => (
         <img className={tw(`mr-4`)} src="/images/logo.png" alt="logo " />
       </div>
       <div className={tw(`w-full lg:w-1/2`)}>
-        <ul className={tw(`text-lg font-light flex flex-wrap w-full`)}>
-          <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
-            <div>
+        <div className={tw(`flex gap-x-20`)}>
+          <ul>
+            <li>
               <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Product</h4>
-              <ul>
-                {productLinks.map((link) => (
-                  <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={link}>
-                    <a href="/">{link}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </li>
-          <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
-            <div>
-              <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Resources</h4>
-              <ul>
-                {resourceLinks.map((link) => (
-                  <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={link}>
-                    <a href="/">{link}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </li>
-          <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
-            <div>
-              <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>About Us</h4>
-              <ul>
-                {aboutLinks.map((link) => (
-                  <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={link}>
-                    <a href="/">{link}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </li>
-        </ul>
+              {sections.map((section) => (
+                <li className={tw(`text-gray-800 text-sm font-medium leading-6 hover:underline`)} key={section.link}>
+                  <a href={`/${section.link}`}>{section.name}</a>
+                </li>
+              ))}
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Legal</h4>
+              {policies.map((policy) => (
+                <li className={tw(`text-gray-800 text-sm font-medium leading-6 hover:underline`)} key={policy.link}>
+                  <a href={`/${policy.link}`}>{policy.name}</a>
+                </li>
+              ))}
+            </li>
+          </ul>
+        </div>
       </div>
       <div className={tw(`w-full lg:w-1/2 mt-12 lg:mt-0`)}>
         <div className={tw(`border border-gray-400 rounded py-5 px-4`)}>
