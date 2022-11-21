@@ -9,10 +9,7 @@ import Contact from '@/components/contact';
 export default function Home() {
   return (
     <Page>
-      <NextSeo
-        title="Techwarely"
-        description="A TypeScript/Next.js theme that includes everything you need to build amazing landing page!"
-      />
+      <NextSeo title="Techwarely" description="Get your project done fast for the best price" />
       <Header />
       <main>
         <ListSection />

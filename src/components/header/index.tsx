@@ -35,15 +35,17 @@ const Header = () => (
     <div className={tw(`flex justify-center w-full bg-gray-100 py-10`)}>
       <div className={tw(`mt-4 w-full`)}>
         <p className={tw(`font-mono uppercase text-center font-medium text-xl text-gray-600`)}>Our tech stack</p>
-        <div className={tw(`flex items-center justify-center mx-auto gap-x-16 px-96`)}>
-          {techStack.map((tool) => (
-            <img
-              key={tool}
-              className={tw(`w-1/6 my-10 opacity-80 grayscale`)}
-              src={`${techImgBase}${tool}.webp`}
-              alt="logo"
-            />
-          ))}
+        <div className={tw(`flex items-center justify-center my-10`)}>
+          <div className={tw(`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-10 px-10 xl:px-32`)}>
+            {techStack.map((tool) => (
+              <img
+                key={tool}
+                className={tw(`w-40 md:w-52 opacity-80 grayscale `)}
+                src={`${techImgBase}${tool}.webp`}
+                alt="logo"
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

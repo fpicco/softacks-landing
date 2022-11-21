@@ -44,7 +44,11 @@ const PricingTable = () => (
         <div className={tw(`py-8 px-6 md:px-0 lg:flex-shrink-1`)}>
           <h2 className={tw(`text-4xl lg:text-6xl font-bold text-gray-800 mb-12 text-center`)}>Our pricing plans</h2>
         </div>
-        <div className={tw(`overflow-hidden lg:max-w-none lg:flex justify-center gap-x-12`)}>
+        <div
+          className={tw(
+            `overflow-hidden lg:max-w-none flex flex-col items-center gap-y-10 lg:flex-row justify-center gap-x-12`,
+          )}
+        >
           {cards.map((card) => (
             <div data-aos="zoom-in" key={card.id} className={tw(`bg-white shadow-md rounded-md p-12 w-96`)}>
               <div className={tw(`flex flex-col justify-center`)}>

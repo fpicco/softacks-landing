@@ -45,10 +45,13 @@ const OurProjects = () => (
         {projects.map((project) => (
           <div
             key={project.name}
-            className={tw(`flex justify-center even:bg-white even:flex-row-reverse odd:bg-gray-100 h-96 px-52`)}
+            className={tw(
+              `flex flex-col xl:flex-row flex-col-reverse items-center justify-center even:bg-white 
+              xl:even:flex-row-reverse odd:bg-gray-100 xl:h-96 xl:px-52 py-20 xl:py-0`,
+            )}
           >
-            <div className={tw(`w-1/2 flex flex-col justify-center items-center relative`)}>
-              <h4 className={tw(`text-2xl lg:text-4xl mb-10`)}>{project.name}</h4>
+            <div className={tw(`xl:w-1/2 flex flex-col justify-center items-center relative`)}>
+              <h4 className={tw(`text-2xl lg:text-4xl mb-5 xl:mb-10`)}>{project.name}</h4>
               <p className={tw(`px-20`)}>{project.description}</p>
               <div className={tw(`flex items-center justify-start gap-x-2 pl-20 pt-5 self-start`)}>
                 {project.infoTags.map((tag) => (
@@ -58,11 +61,11 @@ const OurProjects = () => (
                 ))}
               </div>
             </div>
-            <div className={tw(`w-1/2 flex justify-center items-center`)}>
+            <div className={tw(`w-1/2 flex justify-center items-center pb-10 xl:pb-0`)}>
               <img
                 src={project.img}
                 alt={`${project.name} website`}
-                className={tw(`h-80 flex justify-center items-center`)}
+                className={tw(`xl:h-80 flex justify-center items-center`)}
               />
             </div>
           </div>

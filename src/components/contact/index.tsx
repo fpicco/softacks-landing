@@ -99,7 +99,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className={tw(`relative`)}>
-      <div className={tw(`container mx-auto px-2 py-20 w-full flex justify-center items-center`)}>
+      <div className={tw(`container mx-auto px-2 py-20 w-full lg:flex justify-center items-center`)}>
         <div className={tw(`mb-16 text-center`)}>
           <h2 className={tw(`text-base text-primary font-semibold tracking-wide uppercase`)}>
             Bring your idea to life
@@ -114,13 +114,13 @@ const Contact = () => {
             </Link>
           </div>
         </div>
-        <div className={tw(`w-full h-auto even-shadow rounded-xl lg:p-4 relative`)}>
-          <div className={tw(`px-8 md:p-10 ${status.submitted && `h-full flex-col-center`}`)}>
+        <div className={tw(`w-full lg:w-3/4 2xl:w-1/2 h-auto even-shadow rounded-xl xl:p-4 relative`)}>
+          <div className={tw(`xl:p-10 ${status.submitted && `h-full flex-col-center`}`)}>
             {status.submitted ? (
               <>
                 <p className={tw(`flex justify-center items-center`)}>{status.info.msg}</p>
                 {/* eslint-disable-next-line */}
-                <div className={tw(`w-full flex justify-center items-center my-10 md:mb-0`)} onClick={handleOnChange}>
+                <div className={tw(`w-full flex justify-center items-center my-10 lg:mb-0`)} onClick={handleOnChange}>
                   <input
                     type="button"
                     className={tw(
@@ -136,17 +136,12 @@ const Contact = () => {
               </>
             ) : (
               <>
-                <form
-                  name="contact"
-                  method="POST"
-                  onSubmit={handleOnSubmit}
-                  className={tw(`mx-20 px-12 border-2 rounded-xl`)}
-                >
+                <form name="contact" method="POST" onSubmit={handleOnSubmit} className={tw(`border-2 rounded-xl`)}>
                   <input type="hidden" name="form-name" value="contact" />
                   <div className={tw(`gap-4 w-fit p-8 text-dark-neutral mx-auto`)}>
                     <div className={tw(`flex flex-col w-full gap-2 text-xl`)}>
                       {FORM_FIELDS.map((field) => (
-                        <div key={field.id} className={tw(`flex flex-col md:flex-row md:items-end w-full mt-6`)}>
+                        <div key={field.id} className={tw(`flex flex-col lg:flex-row lg:items-end w-full mt-6`)}>
                           <label className={tw(`upercase text-xl  w-32 capitalize`)} htmlFor={field.id}>
                             {field.id}:
                           </label>
@@ -165,7 +160,7 @@ const Contact = () => {
                         </div>
                       ))}
                     </div>
-                    <div className={tw(`flex flex-col md:flex-row md:items-start w-full mt-6`)}>
+                    <div className={tw(`flex flex-col lg:flex-row lg:items-start w-full mt-6`)}>
                       {/* eslint-disable-next-line */}
                       <label className={tw(`upercase text-xl  py-2 w-32`)} htmlFor="message">
                         Message:
@@ -198,7 +193,7 @@ const Contact = () => {
             )}
           </div>
           <img
-            className={tw(`w-20 ${!status.submitted && `bottom-20`} -left-32 pt-5 absolute`)}
+            className={tw(`w-20 ${!status.submitted && `bottom-20`} hidden lg:block -left-32 pt-5 absolute`)}
             src="/images/start-up.png"
             alt="logo"
           />
