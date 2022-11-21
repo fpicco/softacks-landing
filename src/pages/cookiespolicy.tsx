@@ -50,13 +50,6 @@ const CookiesPolicy = () => (
           </a>
         </li>
       </ul>
-      <p>
-        This Cookie Policy was created with
-        <a href="https://termify.io" target="_blank" rel="noreferrer">
-          Termify
-        </a>
-        .
-      </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>
         Introduction

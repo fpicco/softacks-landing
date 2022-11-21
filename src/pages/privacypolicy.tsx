@@ -19,12 +19,7 @@ const PrivacyPolicy = () => (
         This Privacy Policy applies to our website, and its associated subdomains (collectively, our
         &quot;Service&quot;) alongside our application, Techwarely. By accessing or using our Service, you signify that
         you have read, understood, and agree to our collection, storage, use, and disclosure of your personal
-        information as described in this Privacy Policy and our Terms of Service. This Privacy Policy was created with
-        {` `}
-        <a href="https://termify.io" target="_blank" rel="noreferrer">
-          Termify
-        </a>
-        .
+        information as described in this Privacy Policy and our Terms of Service.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-primary decoration-2 underline-offset-2`)}>

@@ -28,12 +28,7 @@ const TermsAndConditions = () => (
       </p>
       <p>
         Techwarely will not be responsible for any outcome that may occur during the course of usage of our resources.
-        We reserve the rights to change prices and revise the resources usage policy in any moment. This Terms &
-        Conditions was created with
-        <a href="https://termify.io" target="_blank" rel="noreferrer">
-          Termify
-        </a>
-        .
+        We reserve the rights to change prices and revise the resources usage policy in any moment.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>License</h1>
