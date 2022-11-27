@@ -100,10 +100,11 @@ const Contact = () => {
   return (
     <div id="contact" className={tw(`relative`)}>
       <div className={tw(`container mx-auto px-2 py-20 w-full lg:flex justify-center items-center`)}>
-        <div className={tw(`mb-16 text-center`)}>
+        <div className={tw(`mb-16 text-center xl:w-1/2`)}>
           <h2 className={tw(`text-base text-primary font-semibold tracking-wide uppercase`)}>
             Bring your idea to life
           </h2>
+          <img src="images/contact.png" alt="" className={tw(`w-1/2 mx-auto mt-4`)} />
           <p className={tw(`mt-4 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>Still thinking?</p>
           <p className={tw(`mt-2 pb-4 text-5xl lg:text-6xl font-bold tracking-tight text-gray-900`)}>
             Schedule a call right now!
@@ -181,8 +182,10 @@ const Contact = () => {
                     <input
                       type="submit"
                       className={tw(
-                        `font-sans font-medium py-2 px-4 border rounded bg-indigo-600 text-white 
-                        border-indigo-500 hover:bg-indigo-700 cursor-pointer scale-125`,
+                        `font-sans font-medium py-2 px-4 border rounded-lg 
+                        text-white bg-gradient-to-bl 
+                        from-primary to-secondary 
+                        hover:bg-gradient-to-br cursor-pointer scale-125`,
                       )}
                       value="Contact us"
                       disabled={status.submitting}
@@ -192,11 +195,6 @@ const Contact = () => {
               </>
             )}
           </div>
-          <img
-            className={tw(`w-20 ${!status.submitted && `bottom-20`} hidden lg:block -left-32 pt-5 absolute`)}
-            src="/images/start-up.png"
-            alt="logo"
-          />
         </div>
       </div>
     </div>

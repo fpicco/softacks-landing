@@ -15,36 +15,36 @@ const TermsAndConditions = () => (
         General Terms
       </h1>
       <p>
-        By accessing and placing an order with Techwarely, you confirm that you are in agreement with and bound by the
+        By accessing and placing an order with Softacks, you confirm that you are in agreement with and bound by the
         terms of service contained in the Terms & Conditions outlined below. These terms apply to the entire website and
-        any email or other type of communication between you and Techwarely.
+        any email or other type of communication between you and Softacks.
       </p>
       <p>
-        Under no circumstances shall Techwarely team be liable for any direct, indirect, special, incidental or
+        Under no circumstances shall Softacks team be liable for any direct, indirect, special, incidental or
         consequential damages, including, but not limited to, loss of data or profit, arising out of the use, or the
-        inability to use, the materials on this site, even if Techwarely team or an authorized representative has been
+        inability to use, the materials on this site, even if Softacks team or an authorized representative has been
         advised of the possibility of such damages. If your use of materials from this site results in the need for
         servicing, repair or correction of equipment or data, you assume any costs thereof.
       </p>
       <p>
-        Techwarely will not be responsible for any outcome that may occur during the course of usage of our resources.
-        We reserve the rights to change prices and revise the resources usage policy in any moment.
+        Softacks will not be responsible for any outcome that may occur during the course of usage of our resources. We
+        reserve the rights to change prices and revise the resources usage policy in any moment.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>License</h1>
       <p>
-        Techwarely grants you a revocable, non-exclusive, non-transferable, limited license to download, install and use
+        Softacks grants you a revocable, non-exclusive, non-transferable, limited license to download, install and use
         the website strictly in accordance with the terms of this Agreement.
       </p>
       <p>
-        These Terms & Conditions are a contract between you and Techwarely (referred to in these Terms & Conditions as
-        &apos;Techwarely&apos;, &apos;us&apos;, &apos;we&apos; or &apos;our&apos;), the provider of the Techwarely
-        website and the services accessible from the Techwarely website (which are collectively referred to in these
-        Terms & Conditions as the &apos;Techwarely Service&apos;).
+        These Terms & Conditions are a contract between you and Softacks (referred to in these Terms & Conditions as
+        &apos;Softacks&apos;, &apos;us&apos;, &apos;we&apos; or &apos;our&apos;), the provider of the Softacks website
+        and the services accessible from the Softacks website (which are collectively referred to in these Terms &
+        Conditions as the &apos;Softacks Service&apos;).
       </p>
       <p>
         You are agreeing to be bound by these Terms & Conditions. If you do not agree to these Terms & Conditions,
-        please do not use the Techwarely Service. In these Terms & Conditions, &apos;you&apos; refers both to you as an
+        please do not use the Softacks Service. In these Terms & Conditions, &apos;you&apos; refers both to you as an
         individual and to the entity you represent. If you violate any of these Terms & Conditions, we reserve the right
         to cancel your account or block access to your account without notice.
       </p>
@@ -64,18 +64,18 @@ const TermsAndConditions = () => (
         </li>
         <li className={tw(`list-disc ml-10`)}>
           Company: when this policy mentions &quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our,&quot; it
-          refers to Techwarely LLC, 16192 Coastal Highway, Lewes, DE 19958 that is responsible for your information
-          under this Terms & Conditions.
+          refers to Softacks LLC, 16192 Coastal Highway, Lewes, DE 19958 that is responsible for your information under
+          this Terms & Conditions.
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          Country: where Techwarely or the owners/founders of Techwarely are based, in this case is AR
+          Country: where Softacks or the owners/founders of Softacks are based, in this case is AR
         </li>
         <li className={tw(`list-disc ml-10`)}>
           Device: any internet connected device such as a phone, tablet, computer or any other device that can be used
-          to visit Techwarely and use the services.
+          to visit Softacks and use the services.
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          Service: refers to the service provided by Techwarely as described in the relative terms (if available) and on
+          Service: refers to the service provided by Softacks as described in the relative terms (if available) and on
           this platform.
         </li>
         <li className={tw(`list-disc ml-10`)}>
@@ -83,13 +83,13 @@ const TermsAndConditions = () => (
           who provide our content or whose products or services we think may interest you.
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          Website: Techwarely&apos;s site, which can be accessed via this URL:
-          <a href="https://www.techwarely.com" className={tw(`text-blue-600 underline`)}>
-            techwarely.com
+          Website: Softacks&apos;s site, which can be accessed via this URL:
+          <a href="https://www.Softacks.com" className={tw(`text-blue-600 underline`)}>
+            Softacks.com
           </a>
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          You: a person or entity that is registered with Techwarely to use the Services.
+          You: a person or entity that is registered with Softacks to use the Services.
         </li>
       </ul>
 
@@ -107,7 +107,7 @@ const TermsAndConditions = () => (
           website.
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          Remove, alter or obscure any proprietary notice (including any notice of copyright or trademark) of Techwarely
+          Remove, alter or obscure any proprietary notice (including any notice of copyright or trademark) of Softacks
           or its affiliates, partners, suppliers or the licensors of the website.
         </li>
       </ul>
@@ -115,14 +115,13 @@ const TermsAndConditions = () => (
         Return and Refund Policy
       </h1>
       <p>
-        Thanks for shopping at Techwarely. We appreciate the fact that you like to buy the stuff we build. We also want
-        to make sure you have a rewarding experience while you&apos;re exploring, evaluating, and purchasing our
-        products.
+        Thanks for shopping at Softacks. We appreciate the fact that you like to buy the stuff we build. We also want to
+        make sure you have a rewarding experience while you&apos;re exploring, evaluating, and purchasing our products.
       </p>
       <p>
-        As with any shopping experience, there are terms and conditions that apply to transactions at Techwarely.
+        As with any shopping experience, there are terms and conditions that apply to transactions at Softacks.
         We&apos;ll be as brief as our attorneys will allow. The main thing to remember is that by placing an order or
-        making a purchase at Techwarely, you agree to the terms along with Techwarely&apos;s Privacy Policy.
+        making a purchase at Softacks, you agree to the terms along with Softacks&apos;s Privacy Policy.
       </p>
       <p>
         If, for any reason, You are not completely satisfied with any good or service that we provide, don&apos;t
@@ -134,11 +133,11 @@ const TermsAndConditions = () => (
       </h1>
       <p>
         Any feedback, comments, ideas, improvements or suggestions (collectively, &quot;Suggestions&quot;) provided by
-        you to Techwarely with respect to the website shall remain the sole and exclusive property of Techwarely.
+        you to Softacks with respect to the website shall remain the sole and exclusive property of Softacks.
       </p>
       <p>
-        Techwarely shall be free to use, copy, modify, publish, or redistribute the Suggestions for any purpose and in
-        any way without any credit or any compensation to you.
+        Softacks shall be free to use, copy, modify, publish, or redistribute the Suggestions for any purpose and in any
+        way without any credit or any compensation to you.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>
@@ -155,7 +154,7 @@ const TermsAndConditions = () => (
       </h1>
       <p>
         This Terms & Conditions applies only to the Services. The Services may contain links to other websites not
-        operated or controlled by Techwarely. We are not responsible for the content, accuracy or opinions expressed in
+        operated or controlled by Softacks. We are not responsible for the content, accuracy or opinions expressed in
         such websites, and such websites are not investigated, monitored or checked for accuracy or completeness by us.
         Please remember that when you use a link to go from the Services to another website, our Terms & Conditions are
         no longer in effect. Your browsing and interaction on any other website, including those that have a link on our
@@ -165,7 +164,7 @@ const TermsAndConditions = () => (
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>Cookies</h1>
       <p>
-        Techwarely uses &quot;Cookies&quot; to identify the areas of our website that you have visited. A Cookie is a
+        Softacks uses &quot;Cookies&quot; to identify the areas of our website that you have visited. A Cookie is a
         small piece of data stored on your computer or mobile device by your web browser. We use Cookies to enhance the
         performance and functionality of our website but are non-essential to their use. However, without these cookies,
         certain functionality like videos may become unavailable or you would be required to enter your login details
@@ -179,12 +178,12 @@ const TermsAndConditions = () => (
         Changes To Our Terms & Conditions
       </h1>
       <p>
-        You acknowledge and agree that Techwarely may stop (permanently or temporarily) providing the Service (or any
-        features within the Service) to you or to users generally at Techwarely&apos;s sole discretion, without prior
-        notice to you. You may stop using the Service at any time. You do not need to specifically inform Techwarely
-        when you stop using the Service. You acknowledge and agree that if Techwarely disables access to your account,
-        you may be prevented from accessing the Service, your account details or any files or other materials which is
-        contained in your account.
+        You acknowledge and agree that Softacks may stop (permanently or temporarily) providing the Service (or any
+        features within the Service) to you or to users generally at Softacks&apos;s sole discretion, without prior
+        notice to you. You may stop using the Service at any time. You do not need to specifically inform Softacks when
+        you stop using the Service. You acknowledge and agree that if Softacks disables access to your account, you may
+        be prevented from accessing the Service, your account details or any files or other materials which is contained
+        in your account.
       </p>
       <p>
         If we decide to change our Terms & Conditions, we will post those changes on this page, and/or update the Terms
@@ -195,7 +194,7 @@ const TermsAndConditions = () => (
         Modifications to Our website
       </h1>
       <p>
-        Techwarely reserves the right to modify, suspend or discontinue, temporarily or permanently, the website or any
+        Softacks reserves the right to modify, suspend or discontinue, temporarily or permanently, the website or any
         service to which it connects, with or without notice and without liability to you.
       </p>
 
@@ -203,13 +202,13 @@ const TermsAndConditions = () => (
         Updates to Our website
       </h1>
       <p>
-        Techwarely may from time to time provide enhancements or improvements to the features/ functionality of the
+        Softacks may from time to time provide enhancements or improvements to the features/ functionality of the
         website, which may include patches, bug fixes, updates, upgrades and other modifications (&quot;Updates&quot;).
       </p>
       <p>
-        Updates may modify or delete certain features and/or functionalities of the website. You agree that Techwarely
-        has no obligation to (i) provide any Updates, or (ii) continue to provide or enable any particular features
-        and/or functionalities of the website to you.
+        Updates may modify or delete certain features and/or functionalities of the website. You agree that Softacks has
+        no obligation to (i) provide any Updates, or (ii) continue to provide or enable any particular features and/or
+        functionalities of the website to you.
       </p>
       <p>
         You further agree that all Updates will be (i) deemed to constitute an integral part of the website, and (ii)
@@ -225,10 +224,10 @@ const TermsAndConditions = () => (
         Services&quot;).
       </p>
       <p>
-        You acknowledge and agree that Techwarely shall not be responsible for any Third-Party Services, including their
+        You acknowledge and agree that Softacks shall not be responsible for any Third-Party Services, including their
         accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other
-        aspect thereof. Techwarely does not assume and shall not have any liability or responsibility to you or any
-        other person or entity for any Third-Party Services.
+        aspect thereof. Softacks does not assume and shall not have any liability or responsibility to you or any other
+        person or entity for any Third-Party Services.
       </p>
       <p>
         Third-Party Services and links thereto are provided solely as a convenience to you and you access and use them
@@ -238,13 +237,13 @@ const TermsAndConditions = () => (
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>
         Term and Termination
       </h1>
-      <p>This Agreement shall remain in effect until terminated by you or Techwarely.</p>
+      <p>This Agreement shall remain in effect until terminated by you or Softacks.</p>
       <p>
-        Techwarely may, in its sole discretion, at any time and for any or no reason, suspend or terminate this
-        Agreement with or without prior notice.
+        Softacks may, in its sole discretion, at any time and for any or no reason, suspend or terminate this Agreement
+        with or without prior notice.
       </p>
       <p>
-        This Agreement will terminate immediately, without prior notice from Techwarely, in the event that you fail to
+        This Agreement will terminate immediately, without prior notice from Softacks, in the event that you fail to
         comply with any provision of this Agreement. You may also terminate this Agreement by deleting the website and
         all copies thereof from your computer.
       </p>
@@ -253,7 +252,7 @@ const TermsAndConditions = () => (
         from your computer.
       </p>
       <p>
-        Termination of this Agreement will not limit any of Techwarely&apos;s rights or remedies at law or in equity in
+        Termination of this Agreement will not limit any of Softacks&apos;s rights or remedies at law or in equity in
         case of breach by you (during the term of this Agreement) of any of your obligations under the present
         Agreement.
       </p>
@@ -275,10 +274,10 @@ const TermsAndConditions = () => (
         Indemnification
       </h1>
       <p>
-        You agree to indemnify and hold Techwarely and its parents, subsidiaries, affiliates, officers, employees,
-        agents, partners and licensors (if any) harmless from any claim or demand, including reasonable attorneys&apos;
-        fees, due to or arising out of your: (a) use of the website; (b) violation of this Agreement or any law or
-        regulation; or (c) violation of any right of a third party.
+        You agree to indemnify and hold Softacks and its parents, subsidiaries, affiliates, officers, employees, agents,
+        partners and licensors (if any) harmless from any claim or demand, including reasonable attorneys&apos; fees,
+        due to or arising out of your: (a) use of the website; (b) violation of this Agreement or any law or regulation;
+        or (c) violation of any right of a third party.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>
@@ -286,22 +285,22 @@ const TermsAndConditions = () => (
       </h1>
       <p>
         The website is provided to you &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; and with all faults and defects
-        without warranty of any kind. To the maximum extent permitted under applicable law, Techwarely, on its own
-        behalf and on behalf of its affiliates and its and their respective licensors and service providers, expressly
+        without warranty of any kind. To the maximum extent permitted under applicable law, Softacks, on its own behalf
+        and on behalf of its affiliates and its and their respective licensors and service providers, expressly
         disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the website,
         including all implied warranties of merchantability, fitness for a particular purpose, title and
         non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade
-        practice. Without limitation to the foregoing, Techwarely provides no warranty or undertaking, and makes no
+        practice. Without limitation to the foregoing, Softacks provides no warranty or undertaking, and makes no
         representation of any kind that the website will meet your requirements, achieve any intended results, be
         compatible or work with any other software, , systems or services, operate without interruption, meet any
         performance or reliability standards or be error free or that any errors or defects can or will be corrected.
       </p>
       <p>
-        Without limiting the foregoing, neither Techwarely nor any Techwarely&apos;s provider makes any representation
-        or warranty of any kind, express or implied: (i) as to the operation or availability of the website, or the
+        Without limiting the foregoing, neither Softacks nor any Softacks&apos;s provider makes any representation or
+        warranty of any kind, express or implied: (i) as to the operation or availability of the website, or the
         information, content, and materials or products included thereon; (ii) that the website will be uninterrupted or
         error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided through
-        the website; or (iv) that the website, its servers, the content, or e-mails sent from or on behalf of Techwarely
+        the website; or (iv) that the website, its servers, the content, or e-mails sent from or on behalf of Softacks
         are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.
       </p>
       <p>
@@ -314,17 +313,17 @@ const TermsAndConditions = () => (
         Limitation of Liability
       </h1>
       <p>
-        Notwithstanding any damages that you might incur, the entire liability of Techwarely and any of its suppliers
+        Notwithstanding any damages that you might incur, the entire liability of Softacks and any of its suppliers
         under any provision of this Agreement and your exclusive remedy for all of the foregoing shall be limited to the
         amount actually paid by you for the website.
       </p>
       <p>
-        To the maximum extent permitted by applicable law, in no event shall Techwarely or its suppliers be liable for
-        any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages
-        for loss of profits, for loss of data or other information, for business interruption, for personal injury, for
-        loss of privacy arising out of or in any way related to the use of or inability to use the website, third-party
+        To the maximum extent permitted by applicable law, in no event shall Softacks or its suppliers be liable for any
+        special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for
+        loss of profits, for loss of data or other information, for business interruption, for personal injury, for loss
+        of privacy arising out of or in any way related to the use of or inability to use the website, third-party
         software and/or third-party hardware used with the website, or otherwise in connection with any provision of
-        this Agreement), even if Techwarely or any supplier has been advised of the possibility of such damages and even
+        this Agreement), even if Softacks or any supplier has been advised of the possibility of such damages and even
         if the remedy fails of its essential purpose.
       </p>
       <p>
@@ -341,13 +340,13 @@ const TermsAndConditions = () => (
         and the remaining provisions will continue in full force and effect.
       </p>
       <p>
-        This Agreement, together with the Privacy Policy and any other legal notices published by Techwarely on the
-        Services, shall constitute the entire agreement between you and Techwarely concerning the Services. If any
+        This Agreement, together with the Privacy Policy and any other legal notices published by Softacks on the
+        Services, shall constitute the entire agreement between you and Softacks concerning the Services. If any
         provision of this Agreement is deemed invalid by a court of competent jurisdiction, the invalidity of such
         provision shall not affect the validity of the remaining provisions of this Agreement, which shall remain in
         full force and effect. No waiver of any term of this Agreement shall be deemed a further or continuing waiver of
-        such term or any other term, and Techwarely&apos;s failure to assert any right or provision under this Agreement
-        shall not constitute a waiver of such right or provision. YOU AND Techwarely AGREE THAT ANY CAUSE OF ACTION
+        such term or any other term, and Softacks&apos;s failure to assert any right or provision under this Agreement
+        shall not constitute a waiver of such right or provision. YOU AND Softacks AGREE THAT ANY CAUSE OF ACTION
         ARISING OUT OF OR RELATED TO THE SERVICES MUST COMMENCE WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES.
         OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED.
       </p>
@@ -370,25 +369,25 @@ const TermsAndConditions = () => (
         Amendments to this Agreement
       </h1>
       <p>
-        Techwarely reserves the right, at its sole discretion, to modify or replace this Agreement at any time. If a
+        Softacks reserves the right, at its sole discretion, to modify or replace this Agreement at any time. If a
         revision is material we will provide at least 30 days&apos; notice prior to any new terms taking effect. What
         constitutes a material change will be determined at our sole discretion.
       </p>
       <p>
         By continuing to access or use our website after any revisions become effective, you agree to be bound by the
-        revised terms. If you do not agree to the new terms, you are no longer authorized to use Techwarely.
+        revised terms. If you do not agree to the new terms, you are no longer authorized to use Softacks.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>
         Entire Agreement
       </h1>
       <p>
-        The Agreement constitutes the entire agreement between you and Techwarely regarding your use of the website and
-        supersedes all prior and contemporaneous written or oral agreements between you and Techwarely.
+        The Agreement constitutes the entire agreement between you and Softacks regarding your use of the website and
+        supersedes all prior and contemporaneous written or oral agreements between you and Softacks.
       </p>
       <p>
-        You may be subject to additional terms and conditions that apply when you use or purchase other
-        Techwarely&apos;s services, which Techwarely will provide to you at the time of such use or purchase.
+        You may be subject to additional terms and conditions that apply when you use or purchase other Softacks&apos;s
+        services, which Softacks will provide to you at the time of such use or purchase.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>
@@ -408,10 +407,10 @@ const TermsAndConditions = () => (
       <p>
         The website and its entire contents, features and functionality (including but not limited to all information,
         software, text, displays, images, video and audio, and the design, selection and arrangement thereof), are owned
-        by Techwarely, its licensors or other providers of such material and are protected by AR and international
+        by Softacks, its licensors or other providers of such material and are protected by AR and international
         copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws. The
         material may not be copied, modified, reproduced, downloaded or distributed in any way, in whole or in part,
-        without the express prior written permission of Techwarely, unless and except as is expressly provided in these
+        without the express prior written permission of Softacks, unless and except as is expressly provided in these
         Terms & Conditions. Any unauthorized use of the material is prohibited.
       </p>
 
@@ -420,8 +419,8 @@ const TermsAndConditions = () => (
       </h1>
       <p>
         This section applies to any dispute EXCEPT IT DOESN&apos;T INCLUDE A DISPUTE RELATING TO CLAIMS FOR INJUNCTIVE
-        OR EQUITABLE RELIEF REGARDING THE ENFORCEMENT OR VALIDITY OF YOUR OR Techwarely&apos;s INTELLECTUAL PROPERTY
-        RIGHTS. The term &quot;dispute&quot; means any dispute, action, or other controversy between you and Techwarely
+        OR EQUITABLE RELIEF REGARDING THE ENFORCEMENT OR VALIDITY OF YOUR OR Softacks&apos;s INTELLECTUAL PROPERTY
+        RIGHTS. The term &quot;dispute&quot; means any dispute, action, or other controversy between you and Softacks
         concerning the Services or this agreement, whether in contract, warranty, tort, statute, regulation, ordinance,
         or any other legal or equitable basis. &quot;Dispute&quot; will be given the broadest possible meaning allowable
         under law.
@@ -431,9 +430,9 @@ const TermsAndConditions = () => (
         Notice of Dispute
       </h1>
       <p>
-        In the event of a dispute, you or Techwarely must give the other a Notice of Dispute, which is a written
-        statement that sets forth the name, address, and contact information of the party giving it, the facts giving
-        rise to the dispute, and the relief requested. You must send any Notice of Dispute via email to:
+        In the event of a dispute, you or Softacks must give the other a Notice of Dispute, which is a written statement
+        that sets forth the name, address, and contact information of the party giving it, the facts giving rise to the
+        dispute, and the relief requested. You must send any Notice of Dispute via email to:
         <a
           href="/cdn-cgi/l/email-protection"
           className="__cf_email__"
@@ -441,9 +440,9 @@ const TermsAndConditions = () => (
         >
           [email&#160;protected]
         </a>
-        Techwarely will send any Notice of Dispute to you by mail to your address if we have it, or otherwise to your
-        email address. You and Techwarely will attempt to resolve any dispute through informal negotiation within sixty
-        (60) days from the date the Notice of Dispute is sent. After sixty (60) days, you or Techwarely may commence
+        Softacks will send any Notice of Dispute to you by mail to your address if we have it, or otherwise to your
+        email address. You and Softacks will attempt to resolve any dispute through informal negotiation within sixty
+        (60) days from the date the Notice of Dispute is sent. After sixty (60) days, you or Softacks may commence
         arbitration.
       </p>
 
@@ -451,7 +450,7 @@ const TermsAndConditions = () => (
         Binding Arbitration
       </h1>
       <p>
-        If you and Techwarely don&apos;t resolve any dispute by informal negotiation, any other effort to resolve the
+        If you and Softacks don&apos;t resolve any dispute by informal negotiation, any other effort to resolve the
         dispute will be conducted exclusively by binding arbitration as described in this section. You are giving up the
         right to litigate (or participate in as a party or class member) all disputes in court before a judge or jury.
         The dispute shall be settled by binding arbitration in accordance with the commercial arbitration rules of the
@@ -468,16 +467,16 @@ const TermsAndConditions = () => (
         In the event that you submit or post any ideas, creative suggestions, designs, photographs, information,
         advertisements, data or proposals, including ideas for new or improved products, services, features,
         technologies or promotions, you expressly agree that such submissions will automatically be treated as
-        non-confidential and non-proprietary and will become the sole property of Techwarely without any compensation or
-        credit to you whatsoever. Techwarely and its affiliates shall have no obligations with respect to such
-        submissions or posts and may use the ideas contained in such submissions or posts for any purposes in any medium
-        in perpetuity, including, but not limited to, developing, manufacturing, and marketing products and services
-        using such ideas.
+        non-confidential and non-proprietary and will become the sole property of Softacks without any compensation or
+        credit to you whatsoever. Softacks and its affiliates shall have no obligations with respect to such submissions
+        or posts and may use the ideas contained in such submissions or posts for any purposes in any medium in
+        perpetuity, including, but not limited to, developing, manufacturing, and marketing products and services using
+        such ideas.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>Promotions</h1>
       <p>
-        Techwarely may, from time to time, include contests, promotions, sweepstakes, or other activities
+        Softacks may, from time to time, include contests, promotions, sweepstakes, or other activities
         (&quot;Promotions&quot;) that require you to submit material or information concerning yourself. Please note
         that all Promotions may be governed by separate rules that may contain certain eligibility requirements, such as
         restrictions as to age and geographic location. You are responsible to read all Promotions rules to determine
@@ -508,51 +507,51 @@ const TermsAndConditions = () => (
         If for any reason a court of competent jurisdiction finds any provision or portion of these Terms & Conditions
         to be unenforceable, the remainder of these Terms & Conditions will continue in full force and effect. Any
         waiver of any provision of these Terms & Conditions will be effective only if in writing and signed by an
-        authorized representative of Techwarely. Techwarely will be entitled to injunctive or other equitable relief
+        authorized representative of Softacks. Softacks will be entitled to injunctive or other equitable relief
         (without the obligations of posting any bond or surety) in the event of any breach or anticipatory breach by
-        you. Techwarely operates and controls the Techwarely Service from its offices in AR. The Service is not intended
-        for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use
-        would be contrary to law or regulation. Accordingly, those persons who choose to access the Techwarely Service
+        you. Softacks operates and controls the Softacks Service from its offices in AR. The Service is not intended for
+        distribution to or use by any person or entity in any jurisdiction or country where such distribution or use
+        would be contrary to law or regulation. Accordingly, those persons who choose to access the Softacks Service
         from other locations do so on their own initiative and are solely responsible for compliance with local laws, if
         and to the extent local laws are applicable. These Terms & Conditions (which include and incorporate the
-        Techwarely Privacy Policy) contains the entire understanding, and supersedes all prior understandings, between
-        you and Techwarely concerning its subject matter, and cannot be changed or modified by you. The section headings
-        used in this Agreement are for convenience only and will not be given any legal import.
+        Softacks Privacy Policy) contains the entire understanding, and supersedes all prior understandings, between you
+        and Softacks concerning its subject matter, and cannot be changed or modified by you. The section headings used
+        in this Agreement are for convenience only and will not be given any legal import.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>Disclaimer</h1>
-      <p>Techwarely is not responsible for any content, code or any other imprecision.</p>
-      <p>Techwarely does not provide warranties or guarantees.</p>
+      <p>Softacks is not responsible for any content, code or any other imprecision.</p>
+      <p>Softacks does not provide warranties or guarantees.</p>
       <p>
-        In no event shall Techwarely be liable for any special, direct, indirect, consequential, or incidental damages
-        or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in
+        In no event shall Softacks be liable for any special, direct, indirect, consequential, or incidental damages or
+        any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in
         connection with the use of the Service or the contents of the Service. The Company reserves the right to make
         additions, deletions, or modifications to the contents on the Service at any time without prior notice.
       </p>
       <p>
-        The Techwarely Service and its contents are provided &quot;as is&quot; and &quot;as available&quot; without any
-        warranty or representations of any kind, whether express or implied. Techwarely is a distributor and not a
-        publisher of the content supplied by third parties; as such, Techwarely exercises no editorial control over such
+        The Softacks Service and its contents are provided &quot;as is&quot; and &quot;as available&quot; without any
+        warranty or representations of any kind, whether express or implied. Softacks is a distributor and not a
+        publisher of the content supplied by third parties; as such, Softacks exercises no editorial control over such
         content and makes no warranty or representation as to the accuracy, reliability or currency of any information,
-        content, service or merchandise provided through or accessible via the Techwarely Service. Without limiting the
-        foregoing, Techwarely specifically disclaims all warranties and representations in any content transmitted on or
-        in connection with the Techwarely Service or on sites that may appear as links on the Techwarely Service, or in
-        the products provided as a part of, or otherwise in connection with, the Techwarely Service, including without
+        content, service or merchandise provided through or accessible via the Softacks Service. Without limiting the
+        foregoing, Softacks specifically disclaims all warranties and representations in any content transmitted on or
+        in connection with the Softacks Service or on sites that may appear as links on the Softacks Service, or in the
+        products provided as a part of, or otherwise in connection with, the Softacks Service, including without
         limitation any warranties of merchantability, fitness for a particular purpose or non-infringement of third
-        party rights. No oral advice or written information given by Techwarely or any of its affiliates, employees,
+        party rights. No oral advice or written information given by Softacks or any of its affiliates, employees,
         officers, directors, agents, or the like will create a warranty. Price and availability information is subject
-        to change without notice. Without limiting the foregoing, Techwarely does not warrant that the Techwarely
-        Service will be uninterrupted, uncorrupted, timely, or error-free.
+        to change without notice. Without limiting the foregoing, Softacks does not warrant that the Softacks Service
+        will be uninterrupted, uncorrupted, timely, or error-free.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>Contact Us</h1>
       <p>Don&apos;t hesitate to contact us if you have any questions.</p>
       <ul>
-        <li className={tw(`list-disc ml-10`)}> Via Email: accounts@techwarely.com </li>
+        <li className={tw(`list-disc ml-10`)}> Via Email: accounts@Softacks.com </li>
         <li className={tw(`list-disc ml-10`)}>
           Via this Link:
-          <a href="https://www.techwarely.com" className={tw(`text-blue-600 underline`)}>
-            techwarely.com
+          <a href="https://www.Softacks.com" className={tw(`text-blue-600 underline`)}>
+            Softacks.com
           </a>
         </li>
       </ul>

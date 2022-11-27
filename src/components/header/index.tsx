@@ -16,7 +16,13 @@ const Header = () => (
         <h1
           className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`)}
         >
-          Turn your idea into a real project
+          <span>
+            Your
+            <span className={tw(`text-transparent bg-clip-text ml-5 bg-gradient-to-l from-primary to-secondary`)}>
+              next project
+            </span>
+          </span>
+          <span className="md:block">is here.</span>
         </h1>
         <div className={tw(`max-w-xl mx-auto`)}>
           <p className={tw(`mt-10 text-gray-500 text-center text-xl lg:text-3xl`)}>
@@ -29,12 +35,12 @@ const Header = () => (
           </div>
         </Link>
       </div>
-      <img className={tw(`w-1/3 pt-5`)} src="/images/start-up.png" alt="logo" />
+      <img className={tw(`w-1/3 pt-5`)} src="/images/header.png" alt="logo" />
     </div>
 
-    <div className={tw(`flex justify-center w-full bg-gray-100 py-10`)}>
+    <div className={tw(`flex justify-center w-full bg-tertiary py-10`)}>
       <div className={tw(`mt-4 w-full`)}>
-        <p className={tw(`font-mono uppercase text-center font-medium text-xl text-gray-600`)}>Our tech stack</p>
+        <p className={tw(`uppercase text-center font-medium text-xl text-primary`)}>Our tech stack</p>
         <div className={tw(`flex items-center justify-center my-10`)}>
           <div className={tw(`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-10 px-10 xl:px-32`)}>
             {techStack.map((tool) => (

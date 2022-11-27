@@ -47,7 +47,7 @@ const OurProjects = () => (
             key={project.name}
             className={tw(
               `flex flex-col xl:flex-row flex-col-reverse items-center justify-center even:bg-white 
-              xl:even:flex-row-reverse odd:bg-gray-100 xl:h-96 xl:px-52 py-20 xl:py-0`,
+              xl:even:flex-row-reverse odd:bg-tertiary xl:h-96 xl:px-52 py-20 xl:py-0`,
             )}
           >
             <div className={tw(`xl:w-1/2 flex flex-col justify-center items-center relative`)}>

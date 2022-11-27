@@ -25,18 +25,18 @@ const CookiesPolicy = () => (
         </li>
         <li className={tw(`list-disc ml-10`)}>
           Company: when this policy mentions &quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our,&quot; it
-          refers to Techwarely, that is responsible for your information under this Cookie Policy.
+          refers to Softacks, that is responsible for your information under this Cookie Policy.
         </li>
         <li className={tw(`list-disc ml-10`)}>
           Device: any internet connected device such as a phone, tablet, computer or any other device that can be used
-          to visit Techwarely and use the services.
+          to visit Softacks and use the services.
         </li>
         <li className={tw(`list-disc ml-10`)}>
           Personal Data: any information that directly, indirectly, or in connection with other information — including
           a personal identification number — allows for the identification or identifiability of a natural person.
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          Service: refers to the service provided by Techwarely as described in the relative terms (if available) and on
+          Service: refers to the service provided by Softacks as described in the relative terms (if available) and on
           this platform.
         </li>
         <li className={tw(`list-disc ml-10`)}>
@@ -45,8 +45,8 @@ const CookiesPolicy = () => (
         </li>
         <li className={tw(`list-disc ml-10`)}>
           Website: site, which can be accessed via this URL:
-          <a href="https://www.techwarely.com" rel="noreferrer" className={tw(`text-blue-600 underline`)}>
-            techwarely.com
+          <a href="https://www.Softacks.com" rel="noreferrer" className={tw(`text-blue-600 underline`)}>
+            Softacks.com
           </a>
         </li>
       </ul>
@@ -55,11 +55,11 @@ const CookiesPolicy = () => (
         Introduction
       </h1>
       <p>
-        This Cookie Policy explains how Techwarely and its affiliates (collectively &quot;Techwarely&quot;,
-        &quot;we&quot;, &quot;us&quot;, and &quot;ours&quot;), use cookies and similar technologies to recognize you
-        when you visit our website, including without limitation https://techwarely.com/ and any related URLs, mobile or
-        localized versions and related domains / sub-domains (&quot;Websites&quot;). It explains what these technologies
-        are and why we use them, as well as the choices for how to control them.
+        This Cookie Policy explains how Softacks and its affiliates (collectively &quot;Softacks&quot;, &quot;we&quot;,
+        &quot;us&quot;, and &quot;ours&quot;), use cookies and similar technologies to recognize you when you visit our
+        website, including without limitation https://Softacks.com/ and any related URLs, mobile or localized versions
+        and related domains / sub-domains (&quot;Websites&quot;). It explains what these technologies are and why we use
+        them, as well as the choices for how to control them.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>
@@ -91,12 +91,12 @@ const CookiesPolicy = () => (
         </li>
         <li className={tw(`list-disc ml-10`)}>To facilitate the tailoring of online advertising to your interests.</li>
         <li className={tw(`list-disc ml-10`)}>
-          You: a person or entity that is registered with Techwarely to use the Services.
+          You: a person or entity that is registered with Softacks to use the Services.
         </li>
       </ul>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>
-        What type of cookies does Techwarely use?
+        What type of cookies does Softacks use?
       </h1>
       <p>
         Cookies can either be session cookies or persistent cookies. A session cookie expires automatically when you
@@ -163,9 +163,9 @@ const CookiesPolicy = () => (
         Third Party Cookies
       </h1>
       <p>
-        Some cookies that have been set on our website are not set on a first party basis by Techwarely. The Websites
-        can be embedded with content from third parties to serve advertising. These third party service providers may
-        set their own cookies on your web browser. Third party service providers control many of the performance and
+        Some cookies that have been set on our website are not set on a first party basis by Softacks. The Websites can
+        be embedded with content from third parties to serve advertising. These third party service providers may set
+        their own cookies on your web browser. Third party service providers control many of the performance and
         functionality, advertising, marketing and analytics cookies described above. We do not control the use of these
         third party cookies as cookies can only be accessed by the third party that originally set them.
       </p>
@@ -227,11 +227,11 @@ const CookiesPolicy = () => (
       <h1 className={tw(`text-lg mt-10 underline decoration-secondary decoration-2 underline-offset-2`)}>Contact Us</h1>
       <p>Don&apos;t hesitate to contact us if you have any questions regarding our Cookie Policy.</p>
       <ul>
-        <li className={tw(`list-disc ml-10`)}> Via Email: accounts@techwarely.com </li>
+        <li className={tw(`list-disc ml-10`)}> Via Email: accounts@Softacks.com </li>
         <li className={tw(`list-disc ml-10`)}>
           Via this Link:
-          <a href="https://www.techwarely.com" className={tw(`text-blue-600 underline`)}>
-            techwarely.com
+          <a href="https://www.Softacks.com" className={tw(`text-blue-600 underline`)}>
+            Softacks.com
           </a>
         </li>
       </ul>

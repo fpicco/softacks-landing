@@ -12,12 +12,12 @@ const PrivacyPolicy = () => (
       </div>
 
       <p className={tw(`mt-10`)}>
-        Techwarely (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This
-        Privacy Policy explains how your personal information is collected, used, and disclosed by Techwarely.
+        Softacks (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This
+        Privacy Policy explains how your personal information is collected, used, and disclosed by Softacks.
       </p>
       <p>
         This Privacy Policy applies to our website, and its associated subdomains (collectively, our
-        &quot;Service&quot;) alongside our application, Techwarely. By accessing or using our Service, you signify that
+        &quot;Service&quot;) alongside our application, Softacks. By accessing or using our Service, you signify that
         you have read, understood, and agree to our collection, storage, use, and disclosure of your personal
         information as described in this Privacy Policy and our Terms of Service.
       </p>
@@ -37,19 +37,19 @@ const PrivacyPolicy = () => (
         </li>
         <li className={tw(`list-disc ml-10`)}>
           Company: when this policy mentions &quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our,&quot; it
-          refers to Techwarely LLC, 16192 Coastal Highway, Lewes, DE 19958 that is responsible for your information
-          under this Privacy Policy.
+          refers to Softacks LLC, 16192 Coastal Highway, Lewes, DE 19958 that is responsible for your information under
+          this Privacy Policy.
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          Country: where Techwarely or the owners/founders of Techwarely are based, in this case is United States
+          Country: where Softacks or the owners/founders of Softacks are based, in this case is United States
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          Customer: refers to the company, organization or person that signs up to use the Techwarely Service to manage
+          Customer: refers to the company, organization or person that signs up to use the Softacks Service to manage
           the relationships with your consumers or service users.
         </li>
         <li className={tw(`list-disc ml-10`)}>
           Device: any internet connected device such as a phone, tablet, computer or any other device that can be used
-          to visit Techwarely and use the services.
+          to visit Softacks and use the services.
         </li>
         <li className={tw(`list-disc ml-10`)}>
           IP address: Every device connected to the Internet is assigned a number known as an Internet protocol (IP)
@@ -57,15 +57,15 @@ const PrivacyPolicy = () => (
           the location from which a device is connecting to the Internet.
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          Personnel: refers to those individuals who are employed by Techwarely or are under contract to perform a
-          service on behalf of one of the parties.
+          Personnel: refers to those individuals who are employed by Softacks or are under contract to perform a service
+          on behalf of one of the parties.
         </li>
         <li className={tw(`list-disc ml-10`)}>
           Personal Data: any information that directly, indirectly, or in connection with other information — including
           a personal identification number — allows for the identification or identifiability of a natural person.
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          Service: refers to the service provided by Techwarely as described in the relative terms (if available) and on
+          Service: refers to the service provided by Softacks as described in the relative terms (if available) and on
           this platform.
         </li>
         <li className={tw(`list-disc ml-10`)}>
@@ -73,13 +73,13 @@ const PrivacyPolicy = () => (
           who provide our content or whose products or services we think may interest you.
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          Website: Techwarely&apos;s site, which can be accessed via this URL:
-          <a href="https://www.techwarely.com" className={tw(`text-blue-600 underline ml-2`)}>
-            techwarely.com
+          Website: Softacks&apos;s site, which can be accessed via this URL:
+          <a href="https://www.Softacks.com" className={tw(`text-blue-600 underline ml-2`)}>
+            Softacks.com
           </a>
         </li>
         <li className={tw(`list-disc ml-10`)}>
-          You: a person or entity that is registered with Techwarely to use the Services.
+          You: a person or entity that is registered with Softacks to use the Services.
         </li>
       </ul>
 
@@ -120,9 +120,9 @@ const PrivacyPolicy = () => (
       </ul>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-primary decoration-2 underline-offset-2`)}>
-        When does Techwarely use end user information from third parties?
+        When does Softacks use end user information from third parties?
       </h1>
-      <p>Techwarely will collect End User Data necessary to provide the Techwarely services to our customers.</p>
+      <p>Softacks will collect End User Data necessary to provide the Softacks services to our customers.</p>
       <p>
         End users may voluntarily provide us with information they have made available on social media websites. If you
         provide us with any such information, we may collect publicly available information from the social media
@@ -131,12 +131,12 @@ const PrivacyPolicy = () => (
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-primary decoration-2 underline-offset-2`)}>
-        When does Techwarely use customer information from third parties?
+        When does Softacks use customer information from third parties?
       </h1>
       <p>
         We receive some information from the third parties when you contact us. For example, when you submit your email
-        address to us to show interest in becoming a Techwarely customer, we receive information from a third party that
-        provides automated fraud detection services to Techwarely. We also occasionally collect information that is made
+        address to us to show interest in becoming a Softacks customer, we receive information from a third party that
+        provides automated fraud detection services to Softacks. We also occasionally collect information that is made
         publicly available on social media websites. You can control how much of your information social media websites
         make public by visiting these websites and changing your privacy settings.
       </p>
@@ -177,8 +177,8 @@ const PrivacyPolicy = () => (
         Where and when is information collected from customers and end users?
       </h1>
       <p>
-        Techwarely will collect personal information that you submit to us. We may also receive personal information
-        about you from third parties as described above.
+        Softacks will collect personal information that you submit to us. We may also receive personal information about
+        you from third parties as described above.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-primary decoration-2 underline-offset-2`)}>
@@ -202,7 +202,7 @@ const PrivacyPolicy = () => (
         How Long Do We Keep Your Information?
       </h1>
       <p>
-        We keep your information only so long as we need it to provide Techwarely to you and fulfill the purposes
+        We keep your information only so long as we need it to provide Softacks to you and fulfill the purposes
         described in this policy. This is also the case for anyone that we share your information with and who carries
         out services on our behalf. When we no longer need to use your information and there is no need for us to keep
         it to comply with our legal or regulatory obligations, we&apos;ll either remove it from our systems or
@@ -219,7 +219,7 @@ const PrivacyPolicy = () => (
         into our Payment gateway providers database only to be accessible by those authorized with special access rights
         to such systems, and are required to keep the information confidential. After a transaction, your private
         information (credit cards, social security numbers, financials, etc.) is never kept on file. We cannot, however,
-        ensure or warrant the absolute security of any information you transmit to Techwarely or guarantee that your
+        ensure or warrant the absolute security of any information you transmit to Softacks or guarantee that your
         information on the Service may not be accessed, disclosed, altered, or destroyed by a breach of any of our
         physical, technical, or managerial safeguards.
       </p>
@@ -228,7 +228,7 @@ const PrivacyPolicy = () => (
         Could my information be transferred to other countries?
       </h1>
       <p>
-        Techwarely is incorporated in United States. Information collected via our website, through direct interactions
+        Softacks is incorporated in United States. Information collected via our website, through direct interactions
         with you, or from use of our help services may be transferred from time to time to our offices or personnel, or
         to third parties, located throughout the world, and may be viewed and hosted anywhere in the world, including
         countries that may not have laws of general applicability regulating the use and transfer of such data. To the
@@ -237,7 +237,7 @@ const PrivacyPolicy = () => (
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-primary decoration-2 underline-offset-2`)}>
-        Is the information collected through the Techwarely Service secure?
+        Is the information collected through the Softacks Service secure?
       </h1>
       <p>
         We take precautions to protect the security of your information. We have physical, electronic, and managerial
@@ -253,8 +253,8 @@ const PrivacyPolicy = () => (
         Can I update or correct my information?
       </h1>
       <p>
-        The rights you have to request updates or corrections to the information Techwarely collects depend on your
-        relationship with Techwarely. Personnel may update or correct their information as detailed in our internal
+        The rights you have to request updates or corrections to the information Softacks collects depend on your
+        relationship with Softacks. Personnel may update or correct their information as detailed in our internal
         company employment policies.
       </p>
       <p>
@@ -283,7 +283,7 @@ const PrivacyPolicy = () => (
       </p>
       <h1 className={tw(`text-lg mt-10 underline decoration-primary decoration-2 underline-offset-2`)}>Personnel</h1>
       <p>
-        If you are a Techwarely worker or applicant, we collect information you voluntarily provide to us. We use the
+        If you are a Softacks worker or applicant, we collect information you voluntarily provide to us. We use the
         information collected for Human Resources purposes in order to administer benefits to workers and screen
         applicants.
       </p>
@@ -299,18 +299,17 @@ const PrivacyPolicy = () => (
       </h1>
       <p>
         We reserve the right to transfer information to a third party in the event of a sale, merger or other transfer
-        of all or substantially all of the assets of Techwarely or any of its Corporate Affiliates (as defined herein),
-        or that portion of Techwarely or any of its Corporate Affiliates to which the Service relates, or in the event
-        that we discontinue our business or file a petition or have filed against us a petition in bankruptcy,
-        reorganization or similar proceeding, provided that the third party agrees to adhere to the terms of this
-        Privacy Policy.
+        of all or substantially all of the assets of Softacks or any of its Corporate Affiliates (as defined herein), or
+        that portion of Softacks or any of its Corporate Affiliates to which the Service relates, or in the event that
+        we discontinue our business or file a petition or have filed against us a petition in bankruptcy, reorganization
+        or similar proceeding, provided that the third party agrees to adhere to the terms of this Privacy Policy.
       </p>
 
       <h1 className={tw(`text-lg mt-10 underline decoration-primary decoration-2 underline-offset-2`)}>Affiliates</h1>
       <p>
         We may disclose information (including personal information) about you to our Corporate Affiliates. For purposes
         of this Privacy Policy, &quot;Corporate Affiliate&quot; means any person or entity which directly or indirectly
-        controls, is controlled by or is under common control with Techwarely, whether by ownership or otherwise. Any
+        controls, is controlled by or is under common control with Softacks, whether by ownership or otherwise. Any
         information relating to you that we provide to our Corporate Affiliates will be treated by those Corporate
         Affiliates in accordance with the terms of this Privacy Policy.
       </p>
@@ -329,7 +328,7 @@ const PrivacyPolicy = () => (
         website. Your use of the website may also be subject to other local, state, national, or international laws.
       </p>
       <p>
-        By using Techwarely or contacting us directly, you signify your acceptance of this Privacy Policy. If you do not
+        By using Softacks or contacting us directly, you signify your acceptance of this Privacy Policy. If you do not
         agree to this Privacy Policy, you should not engage with our website, or use our services. Continued use of the
         website, direct engagement with us, or following the posting of changes to this Privacy Policy that do not
         significantly affect the use or disclosure of your personal information will mean that you accept those changes.
@@ -347,7 +346,7 @@ const PrivacyPolicy = () => (
       </h1>
       <p>
         This Privacy Policy applies only to the Services. The Services may contain links to other websites not operated
-        or controlled by Techwarely. We are not responsible for the content, accuracy or opinions expressed in such
+        or controlled by Softacks. We are not responsible for the content, accuracy or opinions expressed in such
         websites, and such websites are not investigated, monitored or checked for accuracy or completeness by us.
         Please remember that when you use a link to go from the Services to another website, our Privacy Policy is no
         longer in effect. Your browsing and interaction on any other website, including those that have a link on our
@@ -356,7 +355,7 @@ const PrivacyPolicy = () => (
       </p>
       <h1 className={tw(`text-lg mt-10 underline decoration-primary decoration-2 underline-offset-2`)}>Cookies</h1>
       <p>
-        Techwarely uses &quot;Cookies&quot; to identify the areas of our website that you have visited. A Cookie is a
+        Softacks uses &quot;Cookies&quot; to identify the areas of our website that you have visited. A Cookie is a
         small piece of data stored on your computer or mobile device by your web browser. We use Cookies to enhance the
         performance and functionality of our website but are non-essential to their use. However, without these cookies,
         certain functionality like videos may become unavailable or you would be required to enter your login details
@@ -424,10 +423,10 @@ const PrivacyPolicy = () => (
         Services&quot;).
       </p>
       <p>
-        You acknowledge and agree that Techwarely shall not be responsible for any Third-Party Services, including their
+        You acknowledge and agree that Softacks shall not be responsible for any Third-Party Services, including their
         accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other
-        aspect thereof. Techwarely does not assume and shall not have any liability or responsibility to you or any
-        other person or entity for any Third-Party Services.
+        aspect thereof. Softacks does not assume and shall not have any liability or responsibility to you or any other
+        person or entity for any Third-Party Services.
       </p>
       <p>
         Third-Party Services and links thereto are provided solely as a convenience to you and you access and use them
@@ -491,7 +490,7 @@ const PrivacyPolicy = () => (
       <p>
         GDPR adds some new requirements regarding how companies should protect individuals&apos; personal data that they
         collect and process. It also raises the stakes for compliance by increasing enforcement and imposing greater
-        fines for breach. Beyond these facts it&apos;s simply the right thing to do. At Techwarely we strongly believe
+        fines for breach. Beyond these facts it&apos;s simply the right thing to do. At Softacks we strongly believe
         that your data privacy is very important and we already have solid security and privacy practices in place that
         go beyond the requirements of this new regulation.
       </p>
@@ -500,10 +499,10 @@ const PrivacyPolicy = () => (
         Individual Data Subject&apos;s Rights - Data Access, Portability and Deletion
       </h1>
       <p>
-        We are committed to helping our customers meet the data subject rights requirements of GDPR. Techwarely
-        processes or stores all personal data in fully vetted, DPA compliant vendors. We do store all conversation and
-        personal data for up to 6 years unless your account is deleted. In which case, we dispose of all data in
-        accordance with our Terms of Service and Privacy Policy, but we will not hold it longer than 60 days.
+        We are committed to helping our customers meet the data subject rights requirements of GDPR. Softacks processes
+        or stores all personal data in fully vetted, DPA compliant vendors. We do store all conversation and personal
+        data for up to 6 years unless your account is deleted. In which case, we dispose of all data in accordance with
+        our Terms of Service and Privacy Policy, but we will not hold it longer than 60 days.
       </p>
       <p>
         We are aware that if you are working with EU customers, you need to be able to provide them with the ability to
@@ -585,11 +584,11 @@ const PrivacyPolicy = () => (
       <h1 className={tw(`text-lg mt-10 underline decoration-primary decoration-2 underline-offset-2`)}>Contact Us</h1>
       <p>Don&apos;t hesitate to contact us if you have any questions.</p>
       <ul>
-        <li className={tw(`list-disc ml-10`)}> Via Email: accounts@techwarely.com </li>
+        <li className={tw(`list-disc ml-10`)}> Via Email: accounts@Softacks.com </li>
         <li className={tw(`list-disc ml-10`)}>
           Via this Link:{` `}
-          <a href="https://www.techwarely.com" className={tw(`text-blue-600 underline`)}>
-            techwarely.com
+          <a href="https://www.Softacks.com" className={tw(`text-blue-600 underline`)}>
+            Softacks.com
           </a>
         </li>
       </ul>

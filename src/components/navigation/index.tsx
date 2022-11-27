@@ -15,16 +15,20 @@ type Link = {
 
 const links = [
   {
-    label: `Features`,
-    href: `/#features`,
+    label: `Services`,
+    href: `/#services`,
   },
   {
-    label: `Our work`,
-    href: `/ourwork`,
+    label: `Why us`,
+    href: `/#whyus`,
   },
   {
-    label: `Pricing`,
-    href: `/pricing`,
+    label: `Our technology`,
+    href: `/#ourtechnology`,
+  },
+  {
+    label: `Contact us`,
+    href: `/#contact`,
   },
 ];
 
@@ -109,7 +113,8 @@ const Navigation = () => {
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
             <Link href="/">
-              <img className={tw(`w-3/4 hover:scale-105 cursor-pointer`)} src="/images/logo.png" alt="logo" />
+              {/* <img className={tw(`w-3/4 hover:scale-105 cursor-pointer`)} src="/images/logo.png" alt="logo" /> */}
+              <h1 className={tw(`text-2xl`)}>SOFTACKS</h1>
             </Link>
           </div>
           <div>
