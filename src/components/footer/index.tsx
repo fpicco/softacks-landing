@@ -6,24 +6,21 @@ interface Info {
   link?: string;
 }
 const sections: Info[] = [
-  { name: `Features`, link: `#features` },
-  { name: `Our work`, link: `ourwork` },
-  { name: `Pricing`, link: `pricing` },
+  { name: `Services`, link: `/#services` },
+  { name: `About`, link: `/about` },
+  { name: `Pricing`, link: `/pricing` },
+  { name: `Contact`, link: `/#contact` },
 ];
 const legal: Info[] = [
   { name: `Terms and Conditions`, link: `termsandconditions` },
   { name: `Privacy Policy`, link: `privacypolicy` },
   { name: `Cookies Policy`, link: `cookiespolicy` },
 ];
-const contactInfo: Info[] = [
-  { name: `Phone: +1 (945) 253-3649` },
-  { name: `Email: accounts@techwarely.com` },
-  { name: `Twitter: @techwarely` },
-];
+const contactInfo: Info[] = [{ name: `Phone: (+34) 644155627` }, { name: `Email: contact@softacks.com` }];
 const Footer = () => (
-  <footer className={tw(`bg-white border-t  pt-14 pb-16`)}>
-    <div className={tw(`max-w-7xl mx-auto text-gray-700 px-8 xl:px-0 flex`)}>
-      <div className={tw(`mb-14 flex items-center w-full flex items-center`)}>
+  <footer className={tw(`bg-white border-t pt-14 pb-16`)}>
+    <div className={tw(`max-w-7xl mx-auto text-gray-700 px-8 xl:px-0 lg:flex`)}>
+      <div className={tw(`mb-14 flex items-center w-full `)}>
         {/* <img className={tw(`mr-4`)} src="/images/logo.png" alt="logo " /> */}
         <h1 className={tw(`text-6xl py-5`)}>SOFTACKS</h1>
       </div>

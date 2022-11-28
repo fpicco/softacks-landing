@@ -9,7 +9,7 @@ import Contact from '@/components/contact';
 export default function Home() {
   return (
     <Page>
-      <NextSeo title="Techwarely" description="Get your project done fast for the best price" />
+      <NextSeo title="Softacks" description="Get your project done fast for the best price" />
       <Header />
       <main>
         <ListSection />
