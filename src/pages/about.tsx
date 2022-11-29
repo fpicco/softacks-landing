@@ -40,7 +40,7 @@ const About = () => (
           <div
             className={tw(
               `flex flex-col xl:flex-row justify-center items-center xl:items-start 
-            gap-x-20 my-20 xl:w-2/3 mx-auto`,
+            gap-x-20 my-20 mx-auto`,
             )}
           >
             <WhyUs />
