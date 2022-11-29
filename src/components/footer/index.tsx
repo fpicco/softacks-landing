@@ -6,10 +6,10 @@ interface Info {
   link?: string;
 }
 const sections: Info[] = [
-  { name: `Services`, link: `/#services` },
-  { name: `About`, link: `/about` },
-  { name: `Pricing`, link: `/pricing` },
-  { name: `Contact`, link: `/#contact` },
+  { name: `Services`, link: `#services` },
+  { name: `About`, link: `about` },
+  { name: `Pricing`, link: `pricing` },
+  { name: `Contact`, link: `#contact` },
 ];
 const legal: Info[] = [
   { name: `Terms and Conditions`, link: `termsandconditions` },
