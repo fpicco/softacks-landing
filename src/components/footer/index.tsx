@@ -25,7 +25,7 @@ const Footer = () => (
         {/* <h1 className={tw(`text-6xl py-5`)}>SOFTACKS</h1> */}
       </div>
       <div className={tw(`w-full`)}>
-        <div className={tw(`flex gap-x-20`)}>
+        <div className={tw(`flex flex-col md:flex-row gap-x-20 gap-y-10`)}>
           <ul>
             <li>
               <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Product</h4>
