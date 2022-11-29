@@ -113,8 +113,8 @@ const Navigation = () => {
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
             <Link href="/">
-              {/* <img className={tw(`w-96 hover:scale-105 cursor-pointer`)} src="/images/logo.png" alt="logo" /> */}
-              <h1 className={tw(`text-2xl`)}>SOFTACKS</h1>
+              <img className={tw(`w-60 hover:scale-105 cursor-pointer`)} src="/images/logo.png" alt="logo" />
+              {/* <h1 className={tw(`text-2xl`)}>SOFTACKS</h1> */}
             </Link>
           </div>
           <div>
