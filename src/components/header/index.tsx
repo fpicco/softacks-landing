@@ -20,11 +20,11 @@ const Header = () => (
         >
           <span>
             Your
-            <span className={tw(`text-transparent bg-clip-text ml-5 bg-gradient-to-l from-primary to-secondary`)}>
+            <span className={tw(`text-transparent bg-clip-text ml-2 md:ml-5 bg-gradient-to-l from-primary to-secondary`)}>
               next project
             </span>
           </span>
-          <span className="md:block">is here.</span>
+          <span className="md:block ml-2 md:ml-0">is here.</span>
         </h1>
         <div className={tw(`max-w-xl mx-auto`)}>
           <p className={tw(`mt-10 text-gray-500 text-center text-xl lg:text-2xl 2xl:text-3xl`)}>

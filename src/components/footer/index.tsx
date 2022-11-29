@@ -30,9 +30,9 @@ const Footer = () => (
             <li>
               <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Product</h4>
               {sections.map((section) => (
-                <li className={tw(`text-gray-800 text-sm font-medium leading-6 hover:underline`)} key={section.link}>
+                <div className={tw(`text-gray-800 text-sm font-medium leading-6 hover:underline`)} key={section.link}>
                   <a href={`/${section.link}`}>{section.name}</a>
-                </li>
+                </div>
               ))}
             </li>
           </ul>
@@ -41,9 +41,9 @@ const Footer = () => (
             <li>
               <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Legal</h4>
               {legal.map((policy) => (
-                <li className={tw(`text-gray-800 text-sm font-medium leading-6 hover:underline`)} key={policy.link}>
+                <div className={tw(`text-gray-800 text-sm font-medium leading-6 hover:underline`)} key={policy.link}>
                   <a href={`/${policy.link}`}>{policy.name}</a>
-                </li>
+                </div>
               ))}
             </li>
           </ul>
@@ -51,9 +51,9 @@ const Footer = () => (
             <li>
               <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Contact</h4>
               {contactInfo.map((item) => (
-                <li className={tw(`text-gray-800 text-sm font-medium leading-6 hover:underline`)} key={item.name}>
+                <div className={tw(`text-gray-800 text-sm font-medium leading-6 hover:underline`)} key={item.name}>
                   {item.name}
-                </li>
+                </div>
               ))}
             </li>
           </ul>
