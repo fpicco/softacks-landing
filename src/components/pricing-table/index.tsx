@@ -12,7 +12,7 @@ interface Card {
 const cards: Card[] = [
   {
     id: `Landing`,
-    pricing: 199,
+    pricing: 0,
     description: `Get your webpage ready in 1 week`,
     features: [
       `1-week deliverable`,
@@ -20,14 +20,14 @@ const cards: Card[] = [
       `1 year of infrastructure costs included`,
       `Fully managed website`,
       `Contact form included`,
-      `10 templates available`,
+      `Choose from pre-built designs`,
       `Full support Google Analytics`,
     ],
   },
 
   {
     id: `Custom Landing`,
-    pricing: 499,
+    pricing: 0,
     description: `Get a tailored website for your business`,
 
     features: [
